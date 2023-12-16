@@ -30,6 +30,7 @@ const system = `
 {"inner_monologue":"A brief text representing your thoughts on the message the user sent.","translation":"Your translation for the message the user sent. Remember to respect all user preferences."}
 // The value of the "inner_monologue" key should always be in English.
 // NEVER add unnecessary words to the translation; words that the user did not write in the input text and that are not slang words, things such as good manners (please, thank you, etc.) that the user did not write in their message.
+// ALWAYS throw in the slang in the final translation
 `;
 
 async function main() {
