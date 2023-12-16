@@ -3,7 +3,7 @@ import 'dotenv/config';
 
 const language = "English";
 const translate = "Portuguese";
-const slangs = "Formal";
+const slangs = "Carioca";
 
 const openai = new OpenAI({
   apiKey: process.env['API_GPT'], // This is the default and can be omitted
@@ -11,7 +11,7 @@ const openai = new OpenAI({
 
 const system = `
 You will be provided with a sentence in ${language}, 
-and your task is to translate it into ${translate} with ${slangs} slang.`;
+and your task is to translate it into ${translate} in specific slang ${slangs}.`;
 
 async function main() {
   const params = {
