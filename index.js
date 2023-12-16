@@ -43,7 +43,7 @@ async function main() {
       { role: 'user', content: 'What color is the book?' },
       { role: 'assistant', content: `{"inner_monologue":"The user is asking for the translation of a simple question into Portuguese. I'll keep it literal while incorporating 'mineiro' slang as instructed.","translation":"Qual cor é o livro, sô?"}` },
       
-      { role: 'user', content: 'how can i assembly my horse?' }
+      { role: 'user', content: 'how can i assemble my horse?' }
     ],
     model: 'gpt-3.5-turbo',
   };
