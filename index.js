@@ -2,8 +2,8 @@ import OpenAI from 'openai';
 import 'dotenv/config';
 
 const language = "English";
-const translate = "French";
-const slangs = "native";
+const translate = "Portuguese";
+const slangs = "Formal";
 
 const openai = new OpenAI({
   apiKey: process.env['API_GPT'], // This is the default and can be omitted
