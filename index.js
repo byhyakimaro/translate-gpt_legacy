@@ -22,7 +22,7 @@ const system = `
 # Slang: The user can type slang tags, and this affects which slang groups you should use when generating translations.
 
 - Slang is: Enabled
-- Activated slang tags are: "mineiro, carioca, paulista, formal, informal"
+- Activated slang tags are: "mineiro, carioca, sulista, baiano, nordestina, paulista, formal, informal"
 // With slang enabled, you should ALWAYS translate the user's text in a way that includes local slang from the activated slang tags.
 
 # Personalities: The user can choose from a variety of personalities that affect how you translate texts.
