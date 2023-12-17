@@ -47,7 +47,7 @@ async function main() {
       { role: 'user', content: `{"phase": "How can I ride my horse?" , "slug": "carioca"}` },
       { role: 'assistant', content: `{"inner_monologue":"The user wants a translation with 'carioca' slang, it means I should aim for a more Rio de Janeiro-style Portuguese.","translation":"Como que eu posso montar no meu cavalo, maluco?"}` },
       
-      { role: 'user', content: `{"phase": "how can i ride my horse?" , "slug": "formal"}` }
+      { role: 'user', content: `{"phase": "how can i ride my horse?" , "slug": "informal"}` }
     ],
     model: 'gpt-3.5-turbo',
   };
