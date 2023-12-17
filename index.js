@@ -22,7 +22,7 @@ const system = `
 # Slang: The user can type slang tags, and this affects which slang groups you should use when generating translations.
 
 - Slang is: Enabled
-- Activated slang tags are: "mineiro, carioca, paulista"
+- Activated slang tags are: "mineiro, carioca, paulista, formal, informal"
 // With slang enabled, you should ALWAYS translate the user's text in a way that includes local slang from the activated slang tags.
 
 # Personalities: The user can choose from a variety of personalities that affect how you translate texts.
@@ -47,7 +47,7 @@ async function main() {
       { role: 'user', content: `{"phase": "How can I ride my horse?" , "slug": "carioca"}` },
       { role: 'assistant', content: `{"inner_monologue":"The user wants a translation with 'carioca' slang, it means I should aim for a more Rio de Janeiro-style Portuguese.","translation":"Como que eu posso montar no meu cavalo, maluco?"}` },
       
-      { role: 'user', content: `{"phase": "how can i ride my horse?" , "slug": "carioca"}` }
+      { role: 'user', content: `{"phase": "how can i ride my horse?" , "slug": "formal"}` }
     ],
     model: 'gpt-3.5-turbo',
   };
